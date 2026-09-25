@@ -20,5 +20,7 @@ else:
     if len(c)==0:
         c=b[1:]
     x=c[0]
+    if x==y:
+        print('Not enough unique elements,so 2nd and 3rd largest are same')
     print('2nd Largest:',y)
     print('3rd Largest:',x)
