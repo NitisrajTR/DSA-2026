@@ -1,4 +1,4 @@
-a=list(map(int,(input('Enter the elements of the array separated by space: ').split())))
+a=list(map(int,(input('Enter the elements of the array separated by space:').split())))
 s=0
 for i in range(len(a)-1):
     z=a[i+1]
