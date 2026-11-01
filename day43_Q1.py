@@ -11,4 +11,5 @@ for j in b:
     for i in j:
         z[y].append(i)
         y=y+1
-print(z)
+for i in z:
+    print(*i)
